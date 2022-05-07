@@ -1,0 +1,74 @@
+--Create Database
+CREATE DATABASE XWORKZ;
+-- Create Table 
+CREATE TABLE TEAMS(no int,teamName varchar(10),teamcapatain varchar(10));
+-- View the All Tables
+SELECT * FROM TEAMS;
+-- Insert The Values in Columns
+INSERT INTO TEAMS VALUES(1,'RCB','Virat',18,11);
+INSERT INTO TEAMS VALUES(2,'MI','Rohit',46,11);
+INSERT INTO TEAMS VALUES(3,'CSK','MSD',07,11);
+INSERT INTO TEAMS VALUES(4,'DC','Rusheb',17,11);
+INSERT INTO TEAMS VALUES(5,'RR','Wiliamson',01,12);
+INSERT INTO TEAMS VALUES(6,'KKR','Shreyas',10,11);
+INSERT INTO TEAMS VALUES(7,'PKPs','Mayanak',01,11);
+INSERT INTO TEAMS VALUES(8,'Gl','Hardik',24,11);
+INSERT INTO TEAMS VALUES(9,'RCB','A b D',17,11);
+INSERT INTO TEAMS VALUES(10,'Lb','KlRAhul',01,11);
+-- View The All Columns
+SELECT * FROM TEAMS;
+
+CREATE TABLE MODELS(Sno int,name varchar(10),price bigint);
+-- Insert The Values in Columns
+INSERT INTO MODELS VALUES(1,'MI',35000,'INDIA',64);
+INSERT INTO MODELS VALUES(2,'VIVO',15000,'CHINA',128);
+INSERT INTO MODELS VALUES(3,'OOPO',25000,'Jarmani',64);
+INSERT INTO MODELS VALUES(4,'MICROMAX',15000,'india',32);
+INSERT INTO MODELS VALUES(5,'LENOVO',19000,'chain',128);
+INSERT INTO MODELS VALUES(6,'MI',13000,'SRILAN',64);
+INSERT INTO MODELS VALUES(7,'SAMSUNG',55000,'JAPAN',128);
+INSERT INTO MODELS VALUES(8,'MI',35000,'INDIA',64);
+INSERT INTO MODELS VALUES(9,'APPLE',120000,'INDIA',128);
+INSERT INTO MODELS VALUES(10,'NOKIE',20000,'USA',64);
+-- View The All Columns
+SELECT * FROM MODELS;
+
+
+create table person(Sno int,FirstName varchar(10),SecondName varchar(10),LastName varchar(20),age int);
+insert into person values(1,'Nikhil','Raju','basannavar',26);
+insert into person values(2,'Appu','mallapa','Badighera',25);
+insert into person values(3,'kiran','ligappa','Doddannavar',24);
+insert into person values(4,'lucky','appa','patil',26);
+insert into person values(5,'amol','ajit','patil',27);
+insert into person values(6,'toshif','rasul','nadaf',24);
+insert into person values(7,'pavan','raju','patil',23);
+insert into person values(8,'anna','dada','patil',26);
+insert into person values(9,'milind','mahaveer','Basannavar',38);
+insert into person values(10,'sandeep','jaypal','basannavar',31);
+
+select * from person;
+
+insert into states values(1,'Belagavi','Nipani',256,590001);
+insert into states values(2,'Belagavi','chikodi',300,591216);
+insert into states values(3,'Belagavi','Raybag',150,590024);
+insert into states values(4,'Belagavi','bagalkot',300,590023);
+insert into states values(5,'Belagavi','gokak',200,590042);
+insert into states values(6,'Belagavi','kagawad',57,591228);
+insert into states values(7,'Belagavi','hukeri',320,591201);
+insert into states values(8,'Belagavi','kudachi',300,591222);
+insert into states values(9,'Belagavi','Borgaon',30,591202);
+insert into states values(10,'Belagavi','bdk',300,591216);
+
+select * from states;
+
+create table motorcycle(numb int,bikename varchar(10),price bigint,bikecolor varchar(10),biketypes varchar(10));
+insert into motorcycle values(1,'Hero',65000,'black','normal');
+insert into motorcycle values(2,'Honda',80000,'blue','Normal');
+insert into motorcycle values(3,'MT',120000,'black','racebike');
+insert into motorcycle values(4,'ktm',10000,'red','racebike');
+insert into motorcycle values(5,'fz',150000,'sliver','racebike');
+insert into motorcycle values(6,'R15',130000,'black','racebike');
+insert into motorcycle values(7,'bulet',200000,'naviblue','racebike');
+insert into motorcycle values(8,'kk',30000,'green','normal');
+insert into motorcycle values(9,'duk',150000,'orgen','racebike');
+insert into motorcycle values(10,'Hp',29999,'red','normalbike');
